@@ -1,0 +1,14 @@
+2) QUERY_STRING
+
+1 print(json.dumps(dict(os.environ), index = 2))
+
+3) HTTP_USER_AGENT
+
+4) we use cgi.Fieldstorage() to store the given Fields
+then we can fetch each entry using getfirst()
+
+5) Set-Cookie: username={username}
+
+6) HTTP_COOKIE
+
+7) It allows us to store information and data for the user
